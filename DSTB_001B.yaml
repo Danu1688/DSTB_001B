@@ -12,7 +12,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-    interface-name: eth2
 - name: danu01_AkrabCtn01b
   type: trojan
   server: cdn.noice.id
@@ -26,7 +25,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-    interface-name: eth2
 - name: danu01_AkrabCtn01c
   type: trojan
   server: 104.17.70.206
@@ -40,4 +38,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-    interface-name: eth2
