@@ -1,29 +1,43 @@
 proxies:
-- name: danu23_LiveDoBUc
+- name: danu01_AkrabCtn01a
   type: trojan
-  server: beacon.liveon.id
+  server: 104.20.75.141
   port: 443
-  password: d9f12312-fcf2-4042-9bce-5f9cb395c062
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
   udp: true
-  sni: do.sshpremium.my.id
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: do.sshpremium.my.id
-    interface-name: eth2
-- name: danu25_LiveDoBUa
+      Host: sg-ctn.sshpremium.my.id
+    interface-name: eth1
+- name: danu01_AkrabCtn01b
   type: trojan
-  server: 104.21.8.121
+  server: cdn.noice.id
   port: 443
-  password: 0652b917-f0ed-41c4-ac9c-8c1cadd6dca2
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
   udp: true
-  sni: do.sshpremium.my.id
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: do.sshpremium.my.id
-    interface-name: eth2
+      Host: sg-ctn.sshpremium.my.id
+    interface-name: eth1
+- name: danu01_AkrabCtn01c
+  type: trojan
+  server: 104.17.70.206
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+    interface-name: eth1
