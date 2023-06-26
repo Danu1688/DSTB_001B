@@ -1,40 +1,41 @@
 proxies:
-- name: danu05_AkrabDO01a
+- name: danu01_LiveDO01a
   type: trojan
-  server: 104.18.1.196
+  server: 104.21.8.121
   port: 443
-  password: c309e5ea-3c6a-48ee-9462-dd16d55ae44e
+  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
   udp: true
   sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: danu05_AkrabDO01b
+- name: danu01_LiveDO01b
   type: trojan
-  server: cdn.noice.id
+  server: 172.67.139.111
   port: 443
-  password: c309e5ea-3c6a-48ee-9462-dd16d55ae44e
+  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
   udp: true
   sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: danu05_AkrabDO01c
+- name: danu01_LiveDO01c
   type: trojan
-  server: 104.20.75.141
+  server: beacon.liveon.id
   port: 443
-  password: c309e5ea-3c6a-48ee-9462-dd16d55ae44e
+  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
   udp: true
   sni: do2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+
