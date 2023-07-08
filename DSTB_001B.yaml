@@ -1,5 +1,5 @@
 proxies:
-- name: Danu29_LiveDOBU
+- name: Danu29_LiveDOBUa
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -12,6 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+  interface-name: eth2
 - name: danu01_LiveDO01a
   type: trojan
   server: 104.21.8.121
@@ -25,6 +26,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: eth2
 - name: danu01_LiveDO01b
   type: trojan
   server: 172.67.139.111
@@ -38,6 +40,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: eth2
 - name: danu01_LiveDO01c
   type: trojan
   server: beacon.liveon.id
@@ -51,6 +54,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu21_LiveMlbiBUa
   type: trojan
   server: 104.21.8.121
@@ -64,6 +68,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu21_LiveMlbiBUb
   type: trojan
   server: 172.67.139.111
@@ -77,6 +82,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu21_LiveMlbiBUc
   type: trojan
   server: beacon.liveon.id
@@ -90,6 +96,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu23_LiveMlbiBUa
   type: trojan
   server: 104.21.8.121
@@ -103,6 +110,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu23_LiveMlbiBUb
   type: trojan
   server: 172.67.139.111
@@ -116,6 +124,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu23_LiveMlbiBUc
   type: trojan
   server: beacon.liveon.id
@@ -129,6 +138,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu25_LiveMlbiBUa
   type: trojan
   server: 104.21.8.121
@@ -142,6 +152,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu25_LiveMlbiBUb
   type: trojan
   server: 172.67.139.111
@@ -155,6 +166,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
 - name: Danu25_LiveMlbiBUc
   type: trojan
   server: beacon.liveon.id
@@ -168,3 +180,4 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: eth2
