@@ -1,4 +1,21 @@
 proxies:
+- name: danuVmess-Live01_1
+  type: vmess
+  server: 104.21.8.121
+  port: 443
+  uuid: 1cf65ea4-981a-4c71-8a9b-c75564a0cf76
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: infinys.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: infinys.sshpremium.my.id
+  interface-name: wwan0
 - name: danu01_LiveDO01a
   type: trojan
   server: 104.21.8.121
