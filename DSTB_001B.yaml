@@ -1,22 +1,47 @@
 proxies:
-- name: danuVmess-Live01_1
-  type: vmess
+- name: DanuBiznet01_Live01_1
+  type: trojan
   server: 104.21.8.121
   port: 443
-  uuid: 1cf65ea4-981a-4c71-8a9b-c75564a0cf76
-  alterId: 0
-  cipher: auto
+  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
   udp: true
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
-  tls: true
-  servername: infinys.sshpremium.my.id
   network: ws
   ws-opts:
-    path: /vmessws
+    path: /trojan
     headers:
-      Host: infinys.sshpremium.my.id
+      Host: biznet2.myserver-prem.cloud
   interface-name: wwan0
-- name: danu01_LiveDO01a
+- name: DanuBiznet01_Live01_2
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
+  interface-name: wwan0
+- name: DanuBiznet01_Live01_3
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
+  interface-name: wwan0
+- name: danu01_LiveDO01_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -30,7 +55,7 @@ proxies:
     headers:
       Host: do2.myserver-prem.cloud
   interface-name: wwan0
-- name: danu01_LiveDO01b
+- name: danu01_LiveDO01_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -44,7 +69,7 @@ proxies:
     headers:
       Host: do2.myserver-prem.cloud
   interface-name: wwan0
-- name: danu01_LiveDO01c
+- name: danu01_LiveDO01_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -58,7 +83,7 @@ proxies:
     headers:
       Host: do2.myserver-prem.cloud
   interface-name: wwan0
-- name: DanuBackup_LiveDOa
+- name: DanuBackup_LiveDO_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -72,7 +97,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: wwan0
-- name: DanuBackup_LiveDOb
+- name: DanuBackup_LiveDO_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -86,7 +111,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: wwan0
-- name: DanuBackup_LiveDOc
+- name: DanuBackup_LiveDO_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -99,6 +124,20 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+  interface-name: wwan0
+- name: DanuBiznet01_Live0BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
   interface-name: wwan0
 - name: danu01_LiveDO01BU
   type: trojan
@@ -113,6 +152,20 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
+- name: DanuBiznet03_LiveBU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 393b9767-3d98-47ba-9440-7fde01f179dd
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
   interface-name: wwan0
 - name: danu03_LiveDO03BU
   type: trojan
@@ -310,6 +363,20 @@ proxies:
     headers:
       Host: biznet2.myserver-prem.cloud
   interface-name: wwan0
+- name: DanuBiznet31_LiveBU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: e3944a83-50d4-4f9f-8f9f-7e7592ac4094
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu31_LiveNusaBU
   type: trojan
   server: 104.21.8.121
@@ -323,6 +390,20 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
+  interface-name: wwan0
+- name: DanuBiznet33_LiveBU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 629d1798-d3d8-49e0-8fd3-e7a15eb30889
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
   interface-name: wwan0
 - name: Danu33_LiveHerzaBU
   type: trojan
@@ -379,5 +460,22 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
+  interface-name: wwan0
+- name: danuVmess-Live01_1
+  type: vmess
+  server: 104.21.8.121
+  port: 443
+  uuid: 1cf65ea4-981a-4c71-8a9b-c75564a0cf76
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: infinys.sshpremium.my.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: infinys.sshpremium.my.id
   interface-name: wwan0
 
