@@ -1,45 +1,45 @@
 proxies:
-- name: DanuBiznet01_Live01_1
+- name: DanuTelkom01_Live01_1
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  password: 3052add3-160a-437c-ad4d-c3a043e71258
   udp: true
-  sni: biznet2.myserver-prem.cloud
+  sni: telkom1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: biznet2.myserver-prem.cloud
+      Host: telkom1.myserver-prem.cloud
   interface-name: wwan0
-- name: DanuBiznet01_Live01_2
+- name: DanuTelkom01_Live01_2
   type: trojan
   server: 172.67.139.111
   port: 443
-  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  password: 3052add3-160a-437c-ad4d-c3a043e71258
   udp: true
-  sni: biznet2.myserver-prem.cloud
+  sni: telkom1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: biznet2.myserver-prem.cloud
+      Host: telkom1.myserver-prem.cloud
   interface-name: wwan0
-- name: DanuBiznet01_Live01_3
+- name: DanuTelkom01_Live01_3
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 5c0c729b-703a-4a13-b9b9-e5c289ccc203
+  password: 3052add3-160a-437c-ad4d-c3a043e71258
   udp: true
-  sni: biznet2.myserver-prem.cloud
+  sni: telkom1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: biznet2.myserver-prem.cloud
+      Host: telkom1.myserver-prem.cloud
   interface-name: wwan0
 - name: danu01_LiveDO01_1
   type: trojan
@@ -477,19 +477,5 @@ proxies:
     path: /vmessws
     headers:
       Host: infinys.sshpremium.my.id
-  interface-name: wwan0
-- name: DanuTelkom01_Live01_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 938f1b22-b653-4206-9887-6ecc08a3b7de
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
   interface-name: wwan0
 
