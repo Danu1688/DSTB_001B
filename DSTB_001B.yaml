@@ -478,4 +478,18 @@ proxies:
     headers:
       Host: infinys.sshpremium.my.id
   interface-name: wwan0
+- name: DanuTelkom01_Live01_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 938f1b22-b653-4206-9887-6ecc08a3b7de
+  udp: true
+  sni: telkom1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: telkom1.myserver-prem.cloud
+  interface-name: wwan0
 
