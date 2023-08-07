@@ -1,4 +1,32 @@
 proxies:
+- name: DanuWijaya01_Live01_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: eb3942b3-8869-4924-a833-79b8a8a26395
+  udp: true
+  sni: sg2-wijaya.platinum.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg2-wijaya.platinum.myserver-prem.cloud
+  interface-name: wwan0
+- name: DanuIKD01_Live01_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 2397556c-a62d-4e65-805d-c944f45aa776
+  udp: true
+  sni: ikd-stb1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: ikd-stb1.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuTelkom01_Live01_1
   type: trojan
   server: 104.21.8.121
