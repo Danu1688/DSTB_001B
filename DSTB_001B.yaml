@@ -1,4 +1,43 @@
 proxies:
+- name: DanuMelbi01_Live01_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Live01_2
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Live01_3
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
 - name: DanuIKD01_Live01_1
   type: trojan
   server: 104.21.8.121
@@ -116,19 +155,19 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuTelkom01_LiveBU
+- name: DanuMelbi01_Live01BU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
   udp: true
-  sni: telkom1.myserver-prem.cloud
+  sni: melbi3.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: telkom1.myserver-prem.cloud
+      Host: melbi3.myserver-prem.cloud
 - name: danu01_LiveDO01BU
   type: trojan
   server: 104.21.8.121
@@ -142,19 +181,19 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: DanuTelkom03_LiveBU
+- name: DanuMelbi03_Live03BU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 39b0620e-561c-403b-9757-6bd76ec7ea72
+  password: ab5fc132-9899-4991-96e3-76438a474509
   udp: true
-  sni: telkom1.myserver-prem.cloud
+  sni: melbi3.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: telkom1.myserver-prem.cloud
+      Host: melbi3.myserver-prem.cloud
 - name: danu03_LiveDO03BU
   type: trojan
   server: 104.21.8.121
@@ -337,19 +376,19 @@ proxies:
     path: /trojan
     headers:
       Host: biznet2.myserver-prem.cloud
-- name: DanuTelkom31_LiveBU
+- name: DanuMelbi31_Live31BU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
+  password: 277c5b6d-1184-4987-ae41-06291ac30975
   udp: true
-  sni: telkom1.myserver-prem.cloud
+  sni: melbi3.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: telkom1.myserver-prem.cloud
+      Host: melbi3.myserver-prem.cloud
 - name: Danu31_LiveNusaBU
   type: trojan
   server: 104.21.8.121
@@ -363,19 +402,19 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: DanuTelkom33_LiveBU
+- name: DanuMelbi33_Live33BU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 30b1645d-af06-4ccf-a478-2b7a9ff3210d
+  password: da832c46-6991-478d-ab40-cb321881defc
   udp: true
-  sni: telkom1.myserver-prem.cloud
+  sni: melbi3.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: telkom1.myserver-prem.cloud
+      Host: melbi3.myserver-prem.cloud
 - name: Danu33_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
@@ -483,43 +522,4 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-- name: DanuTelkom01_Live01_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Live01_2
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Live01_3
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 
