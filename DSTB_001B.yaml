@@ -12,6 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi01_Live01_2
   type: trojan
   server: 172.67.139.111
@@ -25,6 +26,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi01_Live01_3
   type: trojan
   server: beacon.liveon.id
@@ -38,6 +40,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuIKD01_Live01_1
   type: trojan
   server: 104.21.8.121
@@ -51,6 +54,7 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuIKD01_Live01_2
   type: trojan
   server: 172.67.139.111
@@ -64,6 +68,7 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuIKD01_Live01_3
   type: trojan
   server: beacon.liveon.id
@@ -77,6 +82,7 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu01_LiveDO01_1
   type: trojan
   server: 104.21.8.121
@@ -90,6 +96,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu01_LiveDO01_2
   type: trojan
   server: 172.67.139.111
@@ -103,6 +110,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu01_LiveDO01_3
   type: trojan
   server: beacon.liveon.id
@@ -116,6 +124,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuBackup_LiveDO_1
   type: trojan
   server: 104.21.8.121
@@ -129,6 +138,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuBackup_LiveDO_2
   type: trojan
   server: 172.67.139.111
@@ -142,6 +152,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuBackup_LiveDO_3
   type: trojan
   server: beacon.liveon.id
@@ -155,6 +166,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi01_Live01BU
   type: trojan
   server: 104.21.8.121
@@ -168,6 +180,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu01_LiveDO01BU
   type: trojan
   server: 104.21.8.121
@@ -181,6 +194,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi03_Live03BU
   type: trojan
   server: 104.21.8.121
@@ -194,6 +208,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu03_LiveDO03BU
   type: trojan
   server: 104.21.8.121
@@ -207,6 +222,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu05_LiveDO05BU
   type: trojan
   server: 104.21.8.121
@@ -220,6 +236,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu07_LiveDO07BU
   type: trojan
   server: 104.21.8.121
@@ -233,6 +250,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu09_LiveDO09BU
   type: trojan
   server: 104.21.8.121
@@ -246,6 +264,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu11_LiveDO11BU
   type: trojan
   server: 104.21.8.121
@@ -259,6 +278,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu13_LiveDO13BU
   type: trojan
   server: 104.21.8.121
@@ -272,6 +292,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu15_LiveDO15BU
   type: trojan
   server: 104.21.8.121
@@ -285,6 +306,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu17_LiveDO17BU
   type: trojan
   server: 104.21.8.121
@@ -298,6 +320,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danu19_LiveDO19BU
   type: trojan
   server: 104.21.8.121
@@ -311,6 +334,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu21_LiveMlbiBU
   type: trojan
   server: 104.21.8.121
@@ -324,6 +348,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu23_LiveMlbiBU
   type: trojan
   server: 104.21.8.121
@@ -337,6 +362,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu25_LiveMlbiBU
   type: trojan
   server: 104.21.8.121
@@ -350,6 +376,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu27_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
@@ -363,6 +390,7 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu29_LiveBiznetBU
   type: trojan
   server: 104.21.8.121
@@ -376,6 +404,7 @@ proxies:
     path: /trojan
     headers:
       Host: biznet2.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi31_Live31BU
   type: trojan
   server: 104.21.8.121
@@ -389,6 +418,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu31_LiveNusaBU
   type: trojan
   server: 104.21.8.121
@@ -402,6 +432,7 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
+  interface-name: wwan0
 - name: DanuMelbi33_Live33BU
   type: trojan
   server: 104.21.8.121
@@ -415,6 +446,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi3.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu33_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
@@ -428,6 +460,7 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu35_LiveNusaBU
   type: trojan
   server: 104.21.8.121
@@ -441,6 +474,7 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu37_LiveBiznetBU
   type: trojan
   server: 104.21.8.121
@@ -454,6 +488,7 @@ proxies:
     path: /trojan
     headers:
       Host: biznet2.myserver-prem.cloud
+  interface-name: wwan0
 - name: Danu39_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
@@ -467,6 +502,7 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
+  interface-name: wwan0
 - name: danuVmess-Live01_1
   type: vmess
   server: 104.21.8.121
@@ -483,6 +519,7 @@ proxies:
     path: /vmessws
     headers:
       Host: infinys.sshpremium.my.id
+  interface-name: wwan0
 - name: danuAryo21_LiveDo21BU
   type: trojan
   server: 104.21.8.121
@@ -496,6 +533,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
+  interface-name: wwan0
 - name: danuAryo23_LiveDo23BU
   type: trojan
   server: 104.21.8.121
@@ -509,6 +547,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
+  interface-name: wwan0
 - name: danuAryo25_LiveDo25BU
   type: trojan
   server: 104.21.8.121
@@ -522,4 +561,5 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
+  interface-name: wwan0
 
