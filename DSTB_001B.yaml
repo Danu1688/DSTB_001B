@@ -562,4 +562,20 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-
+- name: trialIR9Q
+  type: vmess
+  server: 104.21.8.121
+  port: 443
+  uuid: 72155f54-d272-46f8-ac26-c550b47c372a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgdo1.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /xrayws
+    headers:
+      Host: sgdo1.dstb.cloud
+  interface-name: wwan0
