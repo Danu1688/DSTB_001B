@@ -562,11 +562,11 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: trialIR9Q
+- name: AkunTest1
   type: vmess
   server: 104.21.8.121
   port: 443
-  uuid: 72155f54-d272-46f8-ac26-c550b47c372a
+  uuid: 31d177a1-4a1f-44e2-84f5-29bcdc80dd72
   alterId: 0
   cipher: auto
   udp: true
