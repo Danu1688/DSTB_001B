@@ -562,17 +562,17 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: AkunTest2
+- name: AkunTrojanTest1
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 7bf4969c-f56f-4ab7-a208-b2c0f6c9d75f
+  password: 9f78d66f-4244-4e00-8e8a-91da05040461
   udp: true
-  sni: sgdo1.dstb.cloud
+  sni: sgdo1.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /scvps
     headers:
-      Host: sgdo1.dstb.cloud
+      Host: sgdo1.myserver-prem.xyz
   interface-name: wwan0
