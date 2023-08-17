@@ -572,7 +572,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /scvps
+    path: "/scvps"
     headers:
       Host: sgdo1.myserver-prem.xyz
   interface-name: wwan0
