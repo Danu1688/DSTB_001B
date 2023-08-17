@@ -562,20 +562,17 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: AkunTest1
-  type: vmess
+- name: AkunTest2
+  type: trojan
   server: 104.21.8.121
   port: 443
-  uuid: 31d177a1-4a1f-44e2-84f5-29bcdc80dd72
-  alterId: 0
-  cipher: auto
+  password: 7bf4969c-f56f-4ab7-a208-b2c0f6c9d75f
   udp: true
-  tls: true
+  sni: sgdo1.dstb.cloud
   skip-cert-verify: true
-  servername: sgdo1.dstb.cloud
   network: ws
   ws-opts:
-    path: /xrayws
+    path: /scvps
     headers:
       Host: sgdo1.dstb.cloud
   interface-name: wwan0
