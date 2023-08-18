@@ -572,10 +572,10 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sgdo1.myserver-prem.xyz
+  servername: sgdo1.dstb.cloud
   network: ws
   ws-opts:
     path: /xrayws
     headers:
-      Host: sgdo1.myserver-prem.xyz
+      Host: sgdo1.dstb.cloud
   interface-name: wwan0
