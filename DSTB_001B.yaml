@@ -562,7 +562,7 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: TrojanTest1
+- name: TrojanTest1-Live
   type: trojan
   server: 104.21.8.121
   port: 443
