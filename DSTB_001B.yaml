@@ -562,20 +562,17 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: trial7Z55
-  type: vmess
+- name: TrojanTest1
+  type: trojan
   server: 104.21.8.121
   port: 443
-  uuid: 124d7371-daf8-46c4-82a2-fbecfb86aff2
-  alterId: 0
-  cipher: auto
+  password: e7d237e8-0571-4b9c-a8d1-7c20a97886d0
   udp: true
-  tls: true
+  sni: x1cj69.scwill.my.id
   skip-cert-verify: true
-  servername: sgdo1.dstb.cloud
   network: ws
   ws-opts:
-    path: /xrayws
+    path: /trojanws
     headers:
-      Host: sgdo1.dstb.cloud
+      Host: x1cj69.scwill.my.id
   interface-name: wwan0
