@@ -607,11 +607,11 @@ proxies:
     headers:
       Host: sgdo1.myserver-prem.xyz
   interface-name: wwan0
-- name: TrojanTestSgDo2-Live2
+- name: TrojanTestSgDo2-Live
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: e5f685e8-a342-44f7-945b-e43cbec24f03
+  password: e6854375-9705-41fb-9b2a-b4ca690175dc
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
