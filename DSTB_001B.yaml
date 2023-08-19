@@ -593,19 +593,19 @@ proxies:
     headers:
       Host: sgdo1.dstb.cloud
   interface-name: wwan0
-- name: TRIAL-1424-Live
+- name: TrojanWSSgDo2-Live
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: f75c201b-4e71-44a9-897a-ade8eeb69b82
+  password: 938a4f63-670e-4c44-b3e3-c5eb9c992cd2
   udp: true
-  sni: sgdo1.myserver-prem.xyz
+  sni: sgdo2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-tls
     headers:
-      Host: sgdo1.myserver-prem.xyz
+      Host: sgdo2.dstb.cloud
   interface-name: wwan0
 - name: TrojanTestSgDo2-Live
   type: trojan
