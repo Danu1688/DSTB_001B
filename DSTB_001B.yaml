@@ -649,3 +649,17 @@ proxies:
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: wwan0
+- name: TrojanSgDo7-Live
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: fa0fb834-42fd-4d1a-9301-5e54fe821fc9
+  udp: true
+  sni: sgdo4.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo4.dstb.cloud
+  interface-name: wwan0
