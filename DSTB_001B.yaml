@@ -677,7 +677,7 @@ proxies:
     headers:
       Host: sgdo5.dstb.cloud
   interface-name: wwan0
-- name: TrojanGoTest
+- name: TrojanGoTest-Live
   server: 104.21.8.121
   port: 8443
   type: trojan
