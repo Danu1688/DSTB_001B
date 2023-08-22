@@ -677,3 +677,17 @@ proxies:
     headers:
       Host: sgdo5.dstb.cloud
   interface-name: wwan0
+- name: TrojanGoTest
+  server: 104.21.8.121
+  port: 8443
+  type: trojan
+  password: TrojanGoTest
+  network: ws
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: sgdo3.dstb.cloud
+  interface-name: wwan0
