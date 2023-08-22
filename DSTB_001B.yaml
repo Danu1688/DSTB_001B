@@ -635,48 +635,6 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
-- name: TrojanSgdo3-Live
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 05fab232-4744-42ff-9227-b86e4ccf4f31
-  udp: true
-  sni: sgdo3.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-tls
-    headers:
-      Host: sgdo3.dstb.cloud
-  interface-name: wwan0
-- name: TrojanSgDo7-Live
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: fa0fb834-42fd-4d1a-9301-5e54fe821fc9
-  udp: true
-  sni: sgdo4.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xraytrojanws
-    headers:
-      Host: sgdo4.dstb.cloud
-  interface-name: wwan0
-- name: TrojanSgDo5-Live
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: a2320832-c910-492b-bf75-942c91dbde8c
-  udp: true
-  sni: sgdo5.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-tls
-    headers:
-      Host: sgdo5.dstb.cloud
-  interface-name: wwan0
 - name: TrojanGoTest-Live
   server: 104.21.8.121
   port: 8443
@@ -691,3 +649,4 @@ proxies:
     headers:
         Host: sgdo3.dstb.cloud
   interface-name: wwan0
+
