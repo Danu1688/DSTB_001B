@@ -618,20 +618,17 @@ proxies:
     headers:
         Host: sgdo3.dstb.cloud
   interface-name: wwan0
-- name: VmessSvr-Live_1
-  type: vmess
-  server: 104.21.8.121
+- name: TrojanWsSvr-Live_1
+  type: trojan
+  server: 104.18.1.196
   port: 443
-  uuid: 028d8cb8-dded-4bc1-9c6a-cf149d47a5df
-  alterId: 0
-  cipher: auto
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
+  sni: sgdo3.dstb.cloud
   skip-cert-verify: true
-  tls: true
-  servername: sgdo3.dstb.cloud
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: wwan0
