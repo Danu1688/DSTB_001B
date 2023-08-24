@@ -562,37 +562,6 @@ proxies:
     headers:
       Host: do.sshpremium.my.id
   interface-name: wwan0
-- name: TrojanTest1-Live
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: e7d237e8-0571-4b9c-a8d1-7c20a97886d0
-  udp: true
-  sni: x1cj69.scwill.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: x1cj69.scwill.my.id
-  interface-name: wwan0
-- name: VmessTest1-Live
-  type: vmess
-  server: 104.21.8.121
-  port: 443
-  uuid: d8355657-c15b-45ca-949d-dee843efcf6c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sgdo1.dstb.cloud
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: sgdo1.dstb.cloud
-  interface-name: wwan0
 - name: TrojanWSSgDo2-Live
   type: trojan
   server: 104.21.8.121
