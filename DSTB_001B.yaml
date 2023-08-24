@@ -604,7 +604,7 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
-- name: TrojanGoTest-Live
+- name: TrojanGoTest-Live_1
   server: 104.21.8.121
   port: 8443
   type: trojan
