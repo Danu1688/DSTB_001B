@@ -632,21 +632,4 @@ proxies:
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: wwan0
-- name: VmessWsSvr-Live_1
-  type: vmess
-  server: 104.18.1.196
-  port: 443
-  uuid: d5b1041a-c905-4f43-96d2-34efe9b628a7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sgdo3.dstb.cloud
-  network: ws
-  ws-opts:
-    path: /vmess-tls
-    headers:
-      Host: sgdo3.dstb.cloud
-  interface-name: wwan0
 
