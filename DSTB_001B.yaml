@@ -632,4 +632,18 @@ proxies:
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: wwan0
+- name: TrojanWsBizz-Live_1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: c9452baf-e66e-40d0-9793-4be728053fbb
+  udp: true
+  sni: wnb069.scwill.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: wnb069.scwill.my.id
+  interface-name: wwan0
 
