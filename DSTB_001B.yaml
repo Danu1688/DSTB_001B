@@ -646,4 +646,21 @@ proxies:
     headers:
       Host: bizz.myserver-prem.xyz
   interface-name: wwan0
+- name: VmessBizz-Live_1
+  type: vmess
+  server: 104.21.8.121
+  port: 443
+  uuid: b0cbbbc4-4bb4-4bf6-97ea-9415cf035ce9
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bizz.myserver-prem.xyz
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: bizz.myserver-prem.xyz
+  interface-name: wwan0
 
