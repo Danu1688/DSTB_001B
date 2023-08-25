@@ -638,12 +638,12 @@ proxies:
   port: 443
   password: c9452baf-e66e-40d0-9793-4be728053fbb
   udp: true
-  sni: wnb069.scwill.my.id
+  sni: bizz.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojanws
     headers:
-      Host: wnb069.scwill.my.id
+      Host: bizz.myserver-prem.xyz
   interface-name: wwan0
 
