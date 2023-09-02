@@ -687,7 +687,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /xrayvws
+    path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
