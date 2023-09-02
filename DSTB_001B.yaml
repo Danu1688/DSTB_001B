@@ -663,7 +663,7 @@ proxies:
     headers:
       Host: bizz.myserver-prem.xyz
   interface-name: wwan0
-- name: DSTB1Test_AkrabDO_4
+- name: DSTB1Test_LiveDO_1
   type: trojan
   server: 104.21.8.121
   port: 443
