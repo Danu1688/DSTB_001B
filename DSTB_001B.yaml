@@ -691,4 +691,18 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
+- name: WilaLaviana_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: a143b94c-bd31-4755-a207-0422c5f6d177
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+  interface-name: wwan0
 
