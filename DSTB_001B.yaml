@@ -719,5 +719,35 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
-
+- name: DSTB3Trojan_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: bc232c66-1f73-4732-b258-4652f137f0b0
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xrayvws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+  interface-name: wwan0
+- name: DSTB3Vmess_LiveDO_1
+  type: vmess
+  server: 104.21.8.121
+  port: 443
+  uuid: bc232c66-1f73-4732-b258-4652f137f0b0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgdo2.myserver-prem.xyz
+  network: ws
+  ws-opts:
+    path: /xrayvws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+  interface-name: wwan0
 
