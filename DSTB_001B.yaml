@@ -709,7 +709,7 @@ proxies:
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 1d6e0f5e-c611-48c0-86b4-aef1832f6db7
+  password: 6eaad185-5479-43dc-819e-3c2ef4d30dcd
   udp: true
   sni: sgdo2.myserver-prem.xyz
   skip-cert-verify: true
@@ -719,4 +719,5 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
+
 
