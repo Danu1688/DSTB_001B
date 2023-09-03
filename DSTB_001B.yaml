@@ -705,4 +705,18 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
+- name: DSTB2Test_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 1d6e0f5e-c611-48c0-86b4-aef1832f6db7
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+  interface-name: wwan0
 
