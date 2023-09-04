@@ -750,18 +750,4 @@ proxies:
     headers:
       Host: sgdo2.myserver-prem.xyz
   interface-name: wwan0
-- name: BiznetTrojan-Live_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 82796962-d297-4ff0-a67c-d6b1b8c3251a
-  udp: true
-  sni: biznet.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: biznet.dstb.cloud
-  interface-name: wwan0
 
