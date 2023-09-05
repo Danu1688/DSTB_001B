@@ -12,6 +12,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
+  interface-name: wwan0
 - name: DanuDstbSvr2_LiveDO_1
   type: trojan
   server: 104.21.8.121
@@ -25,6 +26,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
+  interface-name: wwan0
 - name: DanuMelbi01_Live01_1
   type: trojan
   server: 104.21.8.121
