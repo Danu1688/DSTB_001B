@@ -1,4 +1,17 @@
 proxies:
+- name: DanuDSTB_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 7c41ae50-1182-4181-bf5c-097b92a37437
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: DanuMelbi01_Live01_1
   type: trojan
   server: 104.21.8.121
