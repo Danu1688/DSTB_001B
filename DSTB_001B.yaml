@@ -1,5 +1,5 @@
 proxies:
-- name: DanuVmessNTLS-LIVE_1
+- name: DanuVmessNTLS-LIVE_1a
   type: vmess
   server: 104.21.90.217
   port: 80
@@ -12,7 +12,7 @@ proxies:
   servername: danu529.foryou-ssh.my.id
   network: ws
   ws-opts:
-    path: /Multi-Path
+    path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: wwan0
@@ -29,7 +29,7 @@ proxies:
   servername: danu529.foryou-ssh.my.id
   network: ws
   ws-opts:
-    path: /Multi-Path
+    path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: wwan0
