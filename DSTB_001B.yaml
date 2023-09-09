@@ -1,7 +1,7 @@
 proxies:
 - name: DanuVmessTLS-LIVE_Host
   type: vmess
-  server: beacon.liveon.id
+  server: circles.asia
   port: 443
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -18,7 +18,7 @@ proxies:
   interface-name: wwan0
 - name: DanuVmessTLS-LIVE_IP
   type: vmess
-  server: 104.21.90.217
+  server: circles.asia
   port: 443
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -35,7 +35,7 @@ proxies:
   interface-name: wwan0
 - name: DanuVmessNTLS-LIVE_Host
   type: vmess
-  server: beacon.liveon.id
+  server: circles.asia
   port: 80
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -52,7 +52,7 @@ proxies:
   interface-name: wwan0
 - name: DanuVmessNTLS-LIVE_IP
   type: vmess
-  server: 104.21.90.217
+  server: circles.asia
   port: 80
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -69,7 +69,7 @@ proxies:
   interface-name: wwan0
 - name: DanuDstbSvr1_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
   udp: true
@@ -83,7 +83,7 @@ proxies:
   interface-name: wwan0
 - name: DanuDstbSvr2_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 7c41ae50-1182-4181-bf5c-097b92a37437
   udp: true
