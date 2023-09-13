@@ -1,4 +1,18 @@
 proxies:
+- name: DanuBiznet_LiveBiznet_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
+  udp: true
+  sni: vpn46tnyyt.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpn46tnyyt.scpotato.me
+  interface-name: wwan0
 - name: DanuNusa_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
