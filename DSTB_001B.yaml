@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: vpna4mvbhv.scpotato.me
   interface-name: wwan0
+- name: DanuRmWeb_LiveRmWeb_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  udp: true
+  sni: vpnrdfs1ov.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpnrdfs1ov.scpotato.me
+  interface-name: wwan0
 - name: DanuVmessTLS-LIVE-DO_1
   type: vmess
   server: circles.asia
