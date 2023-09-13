@@ -12,6 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpna4mvbhv.scpotato.me
+  interface-name: wwan0
 - name: DanuVmessTLS-LIVE-DO_1
   type: vmess
   server: circles.asia
