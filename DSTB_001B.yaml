@@ -159,20 +159,6 @@ proxies:
     headers:
       Host: melbi3.myserver-prem.cloud
   interface-name: wwan0
-- name: Danu27_LiveHerzaBU
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-  interface-name: wwan0
 - name: Danu29_LiveBiznetBU
   type: trojan
   server: circles.asia
@@ -229,20 +215,6 @@ proxies:
     headers:
       Host: melbi3.myserver-prem.cloud
   interface-name: wwan0
-- name: Danu33_LiveHerzaBU
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: 79567c92-f1b6-4a46-bdbe-7efe6621a349
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-  interface-name: wwan0
 - name: Danu35_LiveNusaBU
   type: trojan
   server: circles.asia
@@ -270,37 +242,6 @@ proxies:
     path: /trojan
     headers:
       Host: biznet2.myserver-prem.cloud
-  interface-name: wwan0
-- name: Danu39_LiveHerzaBU
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-  interface-name: wwan0
-- name: danuVmess-Live01_1
-  type: vmess
-  server: circles.asia
-  port: 443
-  uuid: 1cf65ea4-981a-4c71-8a9b-c75564a0cf76
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: infinys.sshpremium.my.id
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: infinys.sshpremium.my.id
   interface-name: wwan0
 - name: danuAryo21_LiveDo21BU
   type: trojan
@@ -343,20 +284,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-  interface-name: wwan0
-- name: TrojanWSSgDo2-Live
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: 938a4f63-670e-4c44-b3e3-c5eb9c992cd2
-  udp: true
-  sni: sgdo2.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-tls
-    headers:
-      Host: sgdo2.dstb.cloud
   interface-name: wwan0
 - name: TrojanTestSgDo2-Live
   type: trojan
@@ -413,37 +340,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
-  interface-name: wwan0
-- name: TrojanWsBizz-Live_1
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: c9452baf-e66e-40d0-9793-4be728053fbb
-  udp: true
-  sni: bizz.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: bizz.myserver-prem.xyz
-  interface-name: wwan0
-- name: VmessBizz-Live_1
-  type: vmess
-  server: circles.asia
-  port: 443
-  uuid: b0cbbbc4-4bb4-4bf6-97ea-9415cf035ce9
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: bizz.myserver-prem.xyz
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: bizz.myserver-prem.xyz
   interface-name: wwan0
 - name: DSTB1Test_LiveDO_1
   type: trojan
