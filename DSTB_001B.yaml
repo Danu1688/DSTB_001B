@@ -41,6 +41,20 @@ proxies:
     headers:
       Host: vpn46tnyyt.scpotato.me
   interface-name: wwan0
+- name: DstbBackupSvr01_LiveDO_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
+  interface-name: wwan0
 - name: DanuVmessTLS-LIVE-DO_1
   type: vmess
   server: circles.asia
@@ -72,20 +86,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-    headers:
-      Host: danu529.foryou-ssh.my.id
-  interface-name: wwan0
-- name: DstbBackupSvr01_LiveDO_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
-  udp: true
-  sni: danu529.foryou-ssh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: wwan0
