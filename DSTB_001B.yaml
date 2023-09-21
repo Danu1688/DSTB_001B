@@ -77,7 +77,7 @@ proxies:
   interface-name: wwan0
 - name: DstbBackupSvr01_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: beacon.liveon.id
   port: 443
   password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
   udp: true
