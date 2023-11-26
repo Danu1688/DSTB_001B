@@ -12,7 +12,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -26,7 +26,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -40,7 +40,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -54,7 +54,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -68,7 +68,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_H1
   type: trojan
   server: circles.asia
@@ -82,7 +82,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: SeverDo2_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -96,7 +96,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_IP1
   type: trojan
   server: 104.17.224.203
@@ -110,7 +110,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_IP2
   type: trojan
   server: 104.16.143.190
@@ -124,7 +124,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_IP3
   type: trojan
   server: 172.67.75.37
@@ -138,7 +138,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_IP4
   type: trojan
   server: 104.26.15.208
@@ -152,7 +152,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_IP5
   type: trojan
   server: 104.26.14.208
@@ -166,7 +166,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_H1
   type: trojan
   server: circles.asia
@@ -180,7 +180,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
 - name: ServerNusa_Live_H2
   type: trojan
   server: beacon.liveon.id
@@ -194,4 +194,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-  interface-name: eth2
+  interface-name: eth1
