@@ -1,7 +1,46 @@
 proxies:
-- name: DanuAtha_Ilped_IP1
+- name: DanuAtha_Live_IP1
   type: trojan
-  server: 104.18.3.2
+  server: 104.17.224.203
+  port: 443
+  password: 42424875-43f3-4185-9e4b-a761cc6a1999
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: DanuAtha_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 42424875-43f3-4185-9e4b-a761cc6a1999
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: DanuAtha_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 42424875-43f3-4185-9e4b-a761cc6a1999
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: DanuAtha_Live_H2
+  type: trojan
+  server: beacon.liveon.id
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
