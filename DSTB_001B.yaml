@@ -1,33 +1,7 @@
 proxies:
-- name: DanuAtha_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: 42424875-43f3-4185-9e4b-a761cc6a1999
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
-- name: DanuAtha_Live_IP2
-  type: trojan
-  server: 104.16.143.190
-  port: 443
-  password: 42424875-43f3-4185-9e4b-a761cc6a1999
-  udp: true
-  sni: id3.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id3.myserver-prem.xyz
 - name: DanuAtha_Live_H1
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
@@ -40,7 +14,7 @@ proxies:
       Host: id3.myserver-prem.xyz
 - name: DanuAtha_Live_H2
   type: trojan
-  server: beacon.liveon.id
+  server: circles.asia
   port: 443
   password: 42424875-43f3-4185-9e4b-a761cc6a1999
   udp: true
@@ -51,74 +25,9 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-- name: SvrDSTB_DO_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Live_IP2
-  type: trojan
-  server: 104.16.143.190
-  port: 443
-  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Live_IP3
-  type: trojan
-  server: 172.67.75.37
-  port: 443
-  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SvrDSTB_DO_Live_IP5
-  type: trojan
-  server: 104.26.14.208
-  port: 443
-  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
 - name: SvrDSTB_DO_Live_H1
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
@@ -131,7 +40,7 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_Live_H2
   type: trojan
-  server: beacon.liveon.id
+  server: circles.asia
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
