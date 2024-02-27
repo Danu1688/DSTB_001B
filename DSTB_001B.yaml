@@ -1,7 +1,7 @@
 proxies:
 - name: SvrDSTB_DO_Vision_IP1
   type: trojan
-  server: 104.18.225.25
+  server: 104.18.225.52
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
