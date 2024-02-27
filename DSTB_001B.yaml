@@ -1,5 +1,5 @@
 proxies:
-- name: SvrDSTB_DO_Vision_H1
+- name: SvrDSTB_DO_Vision_IP1
   type: trojan
   server: 104.18.225.25
   port: 443
