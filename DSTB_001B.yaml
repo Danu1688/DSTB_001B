@@ -40,11 +40,11 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-1
   type: trojan
-  server: dstb.cloud
+  server: hwvip.iflix.com
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
-  sni: hwvip.iflix.com
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
