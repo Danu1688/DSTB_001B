@@ -40,17 +40,17 @@ proxies:
       Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-1
   type: trojan
-  server: hwvip.iflix.com
+  server: dstb.cloud
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
-  sni: dstb.cloud
+  sni: hwvip.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: hwvip.iflix.com
 - name: SvrDSTB_DO_IFLIX_SNI-2
   type: trojan
   server: dstb.cloud
@@ -61,9 +61,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: vplay.iflix.com
 - name: SvrDSTB_DO_IFLIX_SNI-3
   type: trojan
   server: dstb.cloud
@@ -74,9 +74,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: access.iflix.com
 - name: SvrDSTB_DO_IFLIX_SNI-4
   type: trojan
   server: dstb.cloud
@@ -87,9 +87,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: live.iflix.com
 - name: SvrDSTB_DO_IFLIX_SNI-5
   type: trojan
   server: dstb.cloud
@@ -100,9 +100,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: u003dlive.iflix.com
 - name: SvrAtha51_Vision_IP1
   type: trojan
   server: 104.18.225.52
