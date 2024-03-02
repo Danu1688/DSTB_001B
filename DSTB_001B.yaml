@@ -50,7 +50,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: hwvip.iflix.com
+      Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-2
   type: trojan
   server: dstb.cloud
@@ -63,7 +63,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: vplay.iflix.com
+      Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-3
   type: trojan
   server: dstb.cloud
@@ -76,7 +76,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: access.iflix.com
+      Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-4
   type: trojan
   server: dstb.cloud
@@ -89,7 +89,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: live.iflix.com
+      Host: dstb.cloud
 - name: SvrDSTB_DO_IFLIX_SNI-5
   type: trojan
   server: dstb.cloud
@@ -102,7 +102,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: u003dlive.iflix.com
+      Host: dstb.cloud
 - name: SvrAtha51_Vision_IP1
   type: trojan
   server: 104.18.225.52
