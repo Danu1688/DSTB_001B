@@ -77,32 +77,32 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: SvrDSTB_DO_IFLIX_SNI-H1
+- name: SvrDSTB_DO_IFLIX_SNI-1
   type: trojan
   server: dstb.cloud
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
-  sni: access.wetv.vip
+  sni: hwvip.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: access.wetv.vip
-- name: SvrDSTB_DO_IFLIX_SNI-IP1
+      Host: hwvip.iflix.com
+- name: SvrDSTB_DO_IFLIX_SNI-2
   type: trojan
   server: dstb.cloud
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
-  sni: 140.213.50.217
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: 140.213.50.217
+      Host: vplay.iflix.com
 - name: SvrAtha51_Vision_IP1
   type: trojan
   server: 104.18.225.52
