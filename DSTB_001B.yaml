@@ -1,17 +1,17 @@
 proxies:
-- name: SvrDSTB_DO_Viu_H1
+- name: SvrDSTB_DO_Viu_SNI1
   type: trojan
-  server: 4gold.viu.com
+  server: dstb.cloud
   port: 443
   password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
   udp: true
-  sni: dstb.cloud
+  sni: 4gold.viu.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: dstb.cloud
+      Host: 4gold.viu.com
 - name: SvrDSTB_DO_UnliTurbo_IP1
   type: trojan
   server: 104.18.53.172
